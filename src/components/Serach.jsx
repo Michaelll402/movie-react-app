@@ -5,7 +5,7 @@ const Serach = ({ searchTerm, setSearchTerm }) => {
   return (
     <div className="search">
       <div>
-        <img src="/search.svg" alt="Search Icon" />
+        <img src="/search.svg" alt="search Icon" />
         <input
           type="text"
           placeholder="Search through thousands of movies"

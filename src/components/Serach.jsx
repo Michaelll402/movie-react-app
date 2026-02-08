@@ -5,12 +5,17 @@ const Serach = ({ searchTerm, setSearchTerm }) => {
   return (
     <div className="search">
       <div>
-        <img src="/search.svg" alt="search Icon" />
+<img
+  src="/search.png"
+  alt="Search Icon"
+  className="w-6 h-6"
+/>
+
         <input
           type="text"
           placeholder="Search through thousands of movies"
-          value={searchTerm}                          // ✅ show current text
-          onChange={(e) => setSearchTerm(e.target.value)} // ✅ update parent state
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
         />
       </div>
     </div>

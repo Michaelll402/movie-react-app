@@ -6,7 +6,7 @@ const Serach = ({ searchTerm, setSearchTerm }) => {
   return (
     <div className="search">
       <div>
-    <img src={searchIcon} alt="Search Icon" />
+<img src={`${import.meta.env.BASE_URL}search.png`} alt="Search Icon" />
 
 
         <input

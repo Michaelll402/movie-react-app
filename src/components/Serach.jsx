@@ -1,15 +1,13 @@
 // src/components/Serach.jsx
 import React from "react";
+import searchIcon from "../assets/search.png";
 
 const Serach = ({ searchTerm, setSearchTerm }) => {
   return (
     <div className="search">
       <div>
-<img
-  src="/search.png"
-  alt="Search Icon"
-  className="w-6 h-6"
-/>
+    <img src={searchIcon} alt="Search Icon" />
+
 
         <input
           type="text"
